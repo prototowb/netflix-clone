@@ -6,13 +6,12 @@ import { App } from './App';
 import { FirebaseContext } from './context/firebase';
 
 const config = {
-    apiKey: '',
-    authDomain: '',
-    databaseURL: '',
-    projectId: '',
-    storageBucket: '',
-    messagingSenderId: '',
-    appId: '',
+    apiKey: "AIzaSyDs_3qbaI2kcfTFuGpCQjf-AQv_2Z6NtvQ",
+    authDomain: "netflix-clone-82bb0.firebaseapp.com",
+    projectId: "netflix-clone-82bb0",
+    storageBucket: "netflix-clone-82bb0.appspot.com",
+    messagingSenderId: "448463492148",
+    appId: "1:448463492148:web:ef668c8401571391f2a661"
 }
 
 const firebase = window.firebase.initializeApp(config);
@@ -23,7 +22,7 @@ ReactDOM.render(
             <GlobalStyles />
             <App />
         </FirebaseContext.Provider>
-    </>, 
+    </>,
     document.getElementById('root')
 );
 
